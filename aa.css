@@ -1,0 +1,37 @@
+body{
+    background: #94abe9;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    padding: 100px;
+}
+table{
+    position : absolute;
+    left: 50%;
+    top:  20%;
+    transform: translate(-50%);
+    height: 0%;
+    padding: 60px;
+    
+    font-weight: bold;
+}
+th{
+	border: none;
+	font-size: 20px;
+}
+td{
+    text-align: right;
+    border: none;
+}
+input[type=text]{
+    padding: 8px;
+	width: 300px;
+	border-style:solid;
+	border-color: #f5f7f0;
+	font-size: 16px;
+}
+input[type=text]:disabled{
+	background-color: #f5f7f0;
+}
